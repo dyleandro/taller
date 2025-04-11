@@ -1,0 +1,60 @@
+public class objeto_dibujo {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        dibujo planeta = new dibujo();
+        planeta.setNombre("Tierra");
+        planeta.setForma("Esferica");
+        planeta.setColores("Azul y verde");
+        planeta.setMovimiento("Rotacion");
+        planeta.setGalaxia("Via Lactea");
+ 
+        System.out.println("Dibujo 1:");
+        System.out.println("Nombre: " + planeta.getNombre());
+        System.out.println("Forma: " + planeta.getForma());
+        System.out.println("Colores: " + planeta.getColores());
+        System.out.println("Movimiento: " + planeta.getMovimiento());
+        System.out.println("Galaxia: " + planeta.getGalaxia());
+ 
+        planeta.girar();
+        System.out.println();
+        planeta.energia();
+        System.out.println();
+        planeta.temperatura();
+        System.out.println();
+        planeta.velocidad();
+        System.out.println();
+        planeta.movimiento();
+        System.out.println();
+        
+        System.out.println("-----------------------------");
+        
+        arbol arbolNavidad = new arbol();
+        arbolNavidad.setNombre("arbol Navidad");
+        arbolNavidad.setColor("Verde");
+        arbolNavidad.setDecoracion("Esferas, luces y estrella");
+        arbolNavidad.setAltura("2 metros");
+        arbolNavidad.setDescripcion("arbol clasico decorado con motivos de navidad");
+ 
+        System.out.println("Informacion del primer arbol:");
+        System.out.println("Nombre: " + arbolNavidad.getNombre());
+        System.out.println("Color: " + arbolNavidad.getColor());
+        System.out.println("Decoracion: " + arbolNavidad.getDecoracion());
+        System.out.println("Altura: " + arbolNavidad.getAltura());
+        System.out.println("Descripcion: " + arbolNavidad.getDescripcion());
+        arbolNavidad.buscar();
+        System.out.println();
+        arbolNavidad.armar();
+        System.out.println();
+        arbolNavidad.decorar();
+        System.out.println();
+        arbolNavidad.guardar();
+        System.out.println();
+ 
+    }
+ 
+
+        
+    }
